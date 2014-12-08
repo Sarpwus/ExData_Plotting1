@@ -5,7 +5,7 @@ library(sqldf) # I use sqldf package for reading the data
 
 source("load_hsepwr.R")
 
-png(file = "plot1.png", width = 480, height = 480, units = "px", bg = "transparent")
+png(file = "plot3.png", width = 480, height = 480, units = "px", bg = "transparent")
 
 with(hsepwr, plot(DateTime, Sub_metering_1, type = "l", col = "black", xlab = "",
                   ylab = "Energy sub metering"))
